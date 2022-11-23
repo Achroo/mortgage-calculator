@@ -23,6 +23,6 @@ export default {
     }
     
     h2 {
-        font-size: 1.25rem;
+        font-size: 1.75rem;
     }
 </style>
