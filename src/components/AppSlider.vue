@@ -1,6 +1,6 @@
 <template>
     <div class="app-slider">
-        <h1> {{ title }}: {{this.value}}{{this.unit}}</h1>
+        <h1 class="header"> {{ title }}: {{this.value}}{{this.unit}}</h1>
         <input ref="input" class="slider" type="range" min="{{min}}" max="{{max}}" step="{{step}}" value="0" @change="updateValue($event.target.value)"/>
     </div>
 </template>
@@ -38,6 +38,10 @@ export default {
 </script>
 
 <style>
+
+    .header  {
+        font-size: 1.6vw;
+    }
     .slider {
         width: 60%;
     }

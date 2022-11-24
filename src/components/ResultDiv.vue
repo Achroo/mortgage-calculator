@@ -19,10 +19,10 @@ export default {
 
 <style>
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.5vw;
     }
     
     h2 {
-        font-size: 1.75rem;
+        font-size: 1.75vw;
     }
 </style>
